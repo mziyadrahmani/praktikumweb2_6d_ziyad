@@ -2,7 +2,7 @@
 @extends('template.master')
 <!-- isi bagian judul halaman -->
 @section('judul_halaman', 'HALAMAN UTAMA BANTUAN SEMBAKO')
-<!-- isi bagian konten -->
+<!-- isi bagian kontens -->
 @section('konten')
     <a href="{{ route('sembako.create') }}" type="button" class="btn btn-success">
         Tambah Data
