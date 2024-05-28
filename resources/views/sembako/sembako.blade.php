@@ -7,6 +7,7 @@
     <a href="{{ route('sembako.create') }}" type="button" class="btn btn-success">
         Tambah Data
     </a>
+    <a href="{{ route('cetakSembako') }}" type="button" class="btn btn-info">Cetak Data</a>
     <hr>
     @if (Session::has('pesan'))
         <div class="alert alert-success" role="alert">

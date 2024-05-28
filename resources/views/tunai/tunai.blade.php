@@ -10,6 +10,7 @@
     <a href="{{ route('tunai.create') }}" type="button" class="btn btn-success">
         Tambah Data
     </a>
+    <a href="{{ route('cetakTunai') }}" type="button" class="btn btn-info">Cetak Data</a>
     <hr>
     @if (Session::has('pesan'))
         <div class="alert alert-success" role="alert">

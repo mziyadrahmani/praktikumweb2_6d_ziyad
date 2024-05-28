@@ -54,8 +54,8 @@
                             </div>
 
                             <div class="card-footer text-center">
-                                <button type="submit" class="btn btninfo"id="simpan">SIMPAN</button>
-                                <a href="{{ route('tunai.index') }}" class="btn btndanger">BATAL</a>
+                                <button type="submit" class="btn btn-info"id="simpan">SIMPAN</button>
+                                <a href="{{ route('tunai.index') }}" class="btn btn-danger">BATAL</a>
                             </div>
                         </form>
                     @endforeach

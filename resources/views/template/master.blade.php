@@ -9,12 +9,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('/lib/css/index.css') }}">
     <script type="text/javascript" src="{{ asset('/lib/js/jquery.min.js') }}"></script>
+    <style>
+        body {
+            background-color: #dadada;
+            /* Gray color */
+        }
+    </style>
+
+
+
 </head>
 
 <body onload="menuSamping()">
     <!-- Rest of your body content -->
     <div>
-        <div class="sidebar p-4 bg-success menu" id="sidebar">
+        <div class="sidebar p-4 bg-dark menu" id="sidebar">
             <img src="{{ asset('/lib/img/logo.png') }}" width="130" alt="">
             <h4 class="mb-5 text-white">KAB. BATOLA</h4>
             <li>
@@ -36,7 +45,7 @@
                 </a>
             </li>
             <li>
-                <a class="text-white" href="{{ route('bedahrumah') }}">
+                <a class="text-white" href="{{ route('rumah.index') }}">
                     <i class="bi bi-stickies-fill mr-2"></i>
                     Bantuan Bedah Rumah
                 </a>
@@ -47,7 +56,7 @@
     <div class="p-4" id="main-content">
         <div class="row">
             <div class="col-sm-1">
-                <button class="btn btn-success" id="btn-toggle" onclick="menuSamping()">
+                <button class="btn btn-dark" id="btn-toggle" onclick="menuSamping()">
                     <i class="bi bi-list"></i>
                 </button>
             </div>
